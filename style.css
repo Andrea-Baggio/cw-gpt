@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    color: yellow;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    margin-bottom: 24px;
+}
+
+a {
+    color: pink;
+}
+
+a:hover {
+    color: orange;
+}
+
+header {
+    background-color: #1212B2;
+    padding: 24px;
+    text-align: center;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.hero {
+    height: 320px;
+    background-image: url("./images/cover-bg.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 48px;
+    color: white;
+}
+
+.content {
+    padding: 24px;
+}
+
+.content > * {
+    margin-bottom: 16px;
+}
+
+.content > img {
+    width: 100%;
+}
+
+.card {
+    display: flex;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+footer {
+    background-color: darkblue;
+    padding: 32px;
+}
+
+footer p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.highlight {
+    background-color: orange;
+}
+
